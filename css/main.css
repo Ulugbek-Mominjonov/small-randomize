@@ -1,0 +1,49 @@
+body{
+			background-color: #F7F7F7;
+		}
+		.actives{
+			background-color: #FDDD9B;
+			border-radius: 6px;
+		}
+		.modal-b{
+			/*padding: 5px;*/
+			margin: 10px auto;
+			width: 120px;
+			background-color: #FFF3CD;
+			height: 120px;
+			border-radius: 50%;
+			border: 1px solid black;
+		}
+		.modal-p{
+			font-size: 80px;
+			color: red;
+		}
+		@media (min-width: 375px) and (max-width: 428px) {
+			.card{
+				width: 21rem !important;
+			}
+			.logo-text{
+				font-size: 1.6rem;
+			}
+		}
+		@media (min-width: 300px) and (max-width: 374px) {
+			.navbar-light .navbar-toggler{
+				padding: 3px 4px;
+			}
+			.navbar-light .navbar-toggler-icon{
+				width: 25px;
+			}
+			.card{
+				width: 17rem !important;
+			}
+			.logo-img{
+				width: 45px;
+				height: 45px;
+			}
+			.logo-text{
+				font-size: 1.5rem;
+			}
+			.nav-link{
+				font-size: 1.4rem;
+			}
+		}
